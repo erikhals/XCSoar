@@ -465,7 +465,7 @@ RasterRenderer::PrepareColorTable(const ColorRamp *color_ramp, bool do_water,
       if (i == 255) {
         if (do_water) {
           // water colours
-          color = RawColor(85, 160, 255);
+          color = RawColor(30, 67, 105);
         } else {
           color = RawColor(255, 255, 255);
 
